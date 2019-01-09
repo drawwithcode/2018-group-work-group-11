@@ -3,12 +3,55 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-    <style> body {padding: 0; margin: 0;} </style>
-    <script src="p5.min.js"></script>
+    <style>
+
+    body {
+      padding: 0; margin: 0;
+      overflow:hidden;}
+
+      #red-canvas-container{
+        display: none;
+        position:absolute;
+        top: 0; left: 0;
+      }
+    #button{
+      position:absolute;
+      background-color: red;
+      top: 20px;
+      left: 60%;
+      width: 30px; height: 30px;
+    }
+
+  </style>
+      <script src="p5.min.js"></script>
+  <script src="jquery-2.1.1.min.js"></script>
+
+
     <script src="addons/p5.dom.min.js"></script>
     <script src="addons/p5.sound.min.js"></script>
-    <script src="sketch.js"></script>
+
+
+
+
+
+  <script src="sketch -doppio.js"></script>
+
+
   </head>
   <body>
+    <div id="button"></div>
+    <div id ="red-canvas-container"></div>
+
+
   </body>
+  <script>
+
+  var openCamera = -1;
+  function compari() {
+    $("#red-canvas-container").toggle("display");
+    openCamera = openCamera * -1;
+
+  }
+  $("#button").on("click", compari)
+  </script>
 </html>
