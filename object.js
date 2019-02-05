@@ -331,7 +331,6 @@ if(mouseIsPressed==true && spost==1 && distance1<=height/10){
       fill(0,0,0);
       pop();
 
-
     }
 
 // testo
