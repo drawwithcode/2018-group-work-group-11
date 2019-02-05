@@ -327,66 +327,10 @@ if(mouseIsPressed==true && spost==1 && distance1<=height/10){
       fill('white');
 
       noStroke();
-      text('The Northern Lights (also called Aurora Borealis) and the Southern Lights (Aurora Australis) appear when tiny particles stream out from the Sun and hit the Earth’s atmosphere.\nThe particles give some of their energy to atoms and molecules of gases in the upper atmosphere. But the atoms and molecules cannot hold the energy.\nThey quickly give it off as another kind of energy — the colors of light that we call the aurora. These lights occur most often around the North Pole and South Pole\nbecause the incoming particles hold an electric charge. As the particles arrive, the Earth’s magnetic field guides them toward the poles.', width/12, 1.3*height/5, 10*width/12);
+      text('The northern lights (called the aurora borealis) and the southern lights (aurora australis) appear when tiny particles stream out from the Sun and hit the Earth’s atmosphere.\nThe particles give some of their energy to atoms and molecules of gases in the upper atmosphere. But the atoms and molecules cannot hold the energy.\nThey quickly give it off as another kind of energy — the colors of light that we call the aurora. These lights occur most often around the North Pole and South Pole\nbecause the incoming particles hold an electric charge. As the particles arrive, the Earth’s magnetic field guides them toward the poles.\n\nThe particles leave the sun carried by the solar wind, the speed of which interacts with the magnetic field of the Earth.\nWhen you blow through the microphone, you are making the wind stronger and more particles are arriving into our atmosphere: that is why the intensity of the light increases.\n\nWhen you drag the button you accelerate the sun particles.\nParticles with different acceleration cause the aurora to assume different shapes: it shifts more quickly as the acceleration increases.\n\nThe light particles coming from the sun excite the atoms in our atmoshpere. The colors we see depend on the kind of elements that are excited.\nRed is associated to molecules of oxygen, while green to the atoms of the same element. Blue, on the other hand, corresponds to nitrogen.\nWhen you see a strongly blue aurora, you will now know that it is cause mostly by excited nitrogen.', width/12, 1.3*height/5, 10*width/12);
       fill(0,0,0);
       pop();
 
-      push();
-      //textAlign(CENTER);
-      textFont("Krub");
-      textSize(24);
-      textStyle(BOLD);
-      fill('white');
-      noStroke();
-      text('Solar wind',width/12, height/6+2*height/9);
-      pop();
-
-      push();
-      textSize(18);
-      fill('white');
-
-      noStroke();
-      text('The particles leave the sun carried by the solar wind, the speed of which interacts with the magnetic field of the Earth.\nWhen you blow through the microphone, you are making the wind stronger and more particles are arriving into our atmosphere: that is why the intensity of the light increases.', width/12, 1.3*height/5+height/6, 10*width/12);
-      fill(0,0,0);
-      pop();
-
-      push();
-      //textAlign(CENTER);
-      textFont("Krub");
-      textSize(24);
-      textStyle(BOLD);
-      fill('white');
-      noStroke();
-      text('Particles acceleration',width/12, height/6+3*height/9);
-      pop();
-
-      push();
-      textSize(18);
-      fill('white');
-
-      noStroke();
-      text('When you drag the button you accelerate the sun particles.\nParticles with different acceleration cause the aurora to assume different shapes: it shifts more quickly as the acceleration increases.', width/12, 1.3*height/5+height/6+height/9, 10*width/12);
-      fill(0,0,0);
-      pop();
-
-      push();
-      //textAlign(CENTER);
-      textFont("Krub");
-      textSize(24);
-      textStyle(BOLD);
-      fill('white');
-      noStroke();
-      text('Chemical composition',width/12, height/6+3*height/9+height/9);
-      pop();
-
-      push();
-      textSize(18);
-      fill('white');
-
-      noStroke();
-      text('The light particles coming from the sun excite the atoms in our atmoshpere. The colors we see depend on the kind of elements that are excited.\nRed is associated to molecules of oxygen, while green to the atoms of the same element. Blue, on the other hand, corresponds to nitrogen.\nWhen you see a strongly blue aurora, you will now know that it is cause mostly by excited nitrogen.', width/12, 1.3*height/5+height/6+2*height/9, 10*width/12);
-      fill(0,0,0);
-      pop();
     }
 
 // testo
