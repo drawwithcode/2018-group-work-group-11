@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <link href="https://fonts.googleapis.com/css?family=Krub:400,500,600,700" rel="stylesheet">
+    <style>
+
+    body {
+      padding: 0; margin: 0;
+      overflow:hidden;}
+
+      #red-canvas-container{
+        display: none;
+        position:absolute;
+        top: 10%; left: 15%;
+      }
+    #button{
+      position:absolute;
+      background-image: url('https://i.imgur.com/iLo5sR3.png');
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      width:3%;
+      height:4%;
+      top: 5%;
+      left: 80%;
+      cursor: pointer;
+      /* width: 30px; height: 30px; */
+    }
+
+  </style>
+      <script src="p5.min.js"></script>
+  <script src="jquery-2.1.1.min.js"></script>
+
+
+    <script src="addons/p5.dom.min.js"></script>
+    <script src="addons/p5.sound.min.js"></script>
+
+
+
+  <script src="object.js"></script>
+
+  <script src="sketch_camera.js"></script>
+
+
+  </head>
+  <body>
+    <div id="button"></div>
+    <div id ="red-canvas-container"></div>
+
+
+  </body>
+  <script>
+
+  var openCamera = -1;
+  function compari() {
+    $("#red-canvas-container").toggle("display");
+    openCamera = openCamera * -1;
+  }
+
+  $("#button").on("click", compari)
+  $("#button").on("mouseOver", compari)
+  </script>
+</html>
