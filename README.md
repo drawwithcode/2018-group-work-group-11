@@ -27,7 +27,7 @@ Faculty: Michele Mauri, Tommaso Elli
 
 # Design Challenges:
 Designing the structure of the experience, it was hard to come up with interactions that would immediately remind of the physical process. In the end we thought of three interactions that would visually and manually correspond to the effect on the aurora.
-https://github.com/drawwithcode/2018-group-work-group-11/blob/master/play.png
+![alt text](https://github.com/drawwithcode/2018-group-work-group-11/blob/master/play.png)
 
 # Code challenges:
 * It has been challenging controling the camera as an aside sketch and making the camera recognize the colors, we tried using a library but then we managed to solve our problem in a easier way.
@@ -36,6 +36,7 @@ https://github.com/drawwithcode/2018-group-work-group-11/blob/master/play.png
 
 # Inspirations/References
 We were inspired by websites like this one, where we saw how simple games can help everyone, kids and adults, understand science experiencing it on their own screen. We decided to use a simple style and design so that the focus would be on the visual effects of the scientific processes.
+
 http://www.sciencekids.co.nz/gamesactivities.html
 
 # Credits:
