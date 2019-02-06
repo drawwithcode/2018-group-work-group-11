@@ -12,7 +12,7 @@ Politecnico di Milano - Scuola del Design
 Faculty: Michele Mauri, Tommaso Elli
 
 Image:
-https://github.com/drawwithcode/2018-group-work-group-11/blob/master/aurora.png
+![alt text](https://github.com/drawwithcode/2018-group-work-group-11/blob/master/aurora.png)
 
 
 Project idea:
