@@ -30,3 +30,7 @@ Using normal p5 the hardest challenge was to set the parameters for the camera c
 Inspiration
 We were inspired by websites like this one, where we saw how simple games can help everyone, kids and adults, understand science experiencing it on their own screen. We decided to use a simple style and design so that the focus would be on the visual effects of the scientific processes.
 http://www.sciencekids.co.nz/gamesactivities.html
+
+Credits:
+sound.js
+camera.js
