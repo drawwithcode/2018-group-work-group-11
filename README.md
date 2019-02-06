@@ -1,5 +1,5 @@
 # Project name
-NORTHERN LIGHTS
+THE NORTHERN LIGHTS
 
 # Team members:
 Giulia Ianes giulia.ianes@gmail.com
