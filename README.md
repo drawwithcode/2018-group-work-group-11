@@ -28,9 +28,9 @@ Designing the structure of the experience, it was hard to come up with interacti
 https://github.com/drawwithcode/2018-group-work-group-11/blob/master/play.png
 
 # Code challenges:
-It has been challenging controling the camera as an aside sketch and making the camera recognize the colors, we tried using a library but then we managed to solve our problem in a easier way.
-Using normal p5 the hardest challenge was to set the parameters for the camera color recognition. Since we wanted the camera to only recognize actual red, green and blue, it becomes difficult for it to recognize the color because of the variations of light in the room.
-We also had problems finding the proper browser for our projects, because Chrome and Firefow had problems working with the camera color recognition. In the end we solved the problems with the browser Opera.
+* It has been challenging controling the camera as an aside sketch and making the camera recognize the colors, we tried using a library but then we managed to solve our problem in a easier way.
+* Using normal p5 one of the hardest challenges was to set the parameters for the camera color recognition. Since we wanted the camera to only recognize actual red, green and blue, it becomes difficult for it to recognize the color because of the variations of light in the room.
+* We also had problems finding the proper browser for our projects, because Chrome and Firefow had problems working with the camera color recognition. In the end we solved the problems with the browser Opera.
 
 # Inspiration
 We were inspired by websites like this one, where we saw how simple games can help everyone, kids and adults, understand science experiencing it on their own screen. We decided to use a simple style and design so that the focus would be on the visual effects of the scientific processes.
