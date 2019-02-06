@@ -11,7 +11,7 @@ Creative Coding 2018/2019 (https://drawwithcode.github.io/2018/)
 Politecnico di Milano - Scuola del Design
 Faculty: Michele Mauri, Tommaso Elli
 
-Image:
+
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-11/blob/master/aurora.png)
 
 
