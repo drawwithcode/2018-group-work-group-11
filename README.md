@@ -3,7 +3,9 @@ NORTHERN LIGHTS
 
 Team members:
 Giulia Ianes giulia.ianes@gmail.com
+
 Laura Ghisotti laura.ghisotti@gmail.com
+
 Elena Gibelli ele.gibby97@gmail.com
 
 Course reference and academic year:
