@@ -32,5 +32,5 @@ We were inspired by websites like this one, where we saw how simple games can he
 http://www.sciencekids.co.nz/gamesactivities.html
 
 Credits:
-sound.js
-camera.js
+p5.sound.min.js
+p5.dom.min.js
